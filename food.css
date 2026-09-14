@@ -95,10 +95,6 @@ ul {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card h5 {
-    text-align: center;
-}
-
 .card:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -110,12 +106,13 @@ ul {
     object-fit: cover;
 }
 
-.card h5 {
+.card h3 {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 1rem;
     color: #1F2933;
+    text-align: center;
 }
 
 .menu {
