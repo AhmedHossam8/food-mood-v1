@@ -270,6 +270,11 @@ footer {
         max-width: 100%;
     }
 
+    .cards,
+    .menu-items {
+        grid-template-columns: 1fr;
+    }
+
     .about {
         flex-direction: column;
         margin: 4rem 1.5rem;
